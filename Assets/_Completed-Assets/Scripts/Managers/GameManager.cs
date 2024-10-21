@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -84,7 +84,7 @@ namespace Complete
             if (m_GameWinner != null)
             {
                 // If there is a game winner, restart the level.
-                SceneManager.LoadScene (0);
+                SceneManager.LoadScene (SceneNames.TITLE);
             }
             else
             {
